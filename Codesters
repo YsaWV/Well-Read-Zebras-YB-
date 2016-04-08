@@ -1,0 +1,9 @@
+roll_1 = random.randint(1,6)
+roll_1_pic = codesters.Sprite("person" + str(roll_1), -100, 0)
+
+roll_1_score = codesters.Display(roll_1, -100, 200)
+
+roll_2 = random.randint(1,4)
+roll_2_pic = codesters.Sprite("fish" + str(roll_2), 100, 0)
+
+roll_2_score = codesters.Display(roll_2, 100, 200
